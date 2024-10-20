@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/banh.css">
+
+</head>
+
+<body>
+    <div class="banhbanh">
+        <div class="banhup">
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                    <img src="images/banhbest3.png" alt="" style="width:100%">
+                </div>
+                <div class="mySlides fade">
+                    <img src="images/banhbest1.png" alt="" style="width:100%">
+                </div>
+                <div class="mySlides fade">
+                    <img src="images/banhbest2.png" alt="" style="width:100%">
+                </div>
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                <div class="dots-container">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                </div>
+            </div>
+            <div class="thongtinbanh">
+                <h1>Soft Glow – Flan Gato Mè Đen Matcha</h1>
+                <h3>535.000 đ</h3>
+                <p><b>Hương thơm và mùi vị:</b><br>
+                    Ngọt dịu – Béo nhẹ – Thơm – Đắng nhẹ<br>
+                    <b>Cấu trúc bánh:</b><br>
+                    Phần thân bánh gồm các lớp chính:<br>
+                    + Bánh flan vị mè đen<br>
+                    + Bông lan matcha<br>
+                    Phần trang trí: jelly caramel, đào, dâu tây, búp sữa chua<br>
+                    <b>Phụ kiện tặng kèm:</b><br>
+                    Dao cắt bánh, 1 bộ dĩa và muỗng, 10 nến nhỏ (hoặc nến số nếu bạn yêu cầu)<br>
+                    Kích cỡ: 16cm
+                </p>
+                <div class="addGH">
+                    <div class="quantity">
+                        <div class="pro-qty">
+                            <button class="qty-btn minus" onclick="giamsl()">-</button>
+                            <input type="text" value="1" id="quantity" readonly>
+                            <button class="qty-btn plus" onclick="tangsl()">+</button>
+                        </div>
+                    </div>
+                    <div class="btnthemGH">
+                        <input type="button" value="Thêm vào giỏ hàng" onclick="giaohang()">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="motabanh">
+            <p id="mota">Mô tả</p>
+            <div class="motachinh">
+                <p>
+                    Bạn đang tìm kiếm một món bánh ngon, độc đáo để đánh thức mọi giác quan và mang đến trải nghiệm ẩm
+                    thực
+                    đậm đà tinh hoa Nhật Bản?<br>
+
+                    Hãy để Soft Glow – Bánh Flan Gato Mè Đen Matcha mới ra mắt của The CakeShop đưa bạn vào một bản giao
+                    hưởng đầy thanh tao!<br>
+
+                    Đúng như cái tên “Soft Glow”, chiếc bánh là một tổng hòa của những nốt vị êm dịu:<br>
+                <ul>
+                    <li>
+                        Flan mè đen mềm mịn, thơm lừng hương mè đen, tan chảy trong miệng như những nốt nhạc du dương,
+                        để
+                        lại dư vị lưu luyến, đậm chất Nhật Bản.</li>
+                    <li>Bông lan matcha thượng hạng với vị tinh tế cân bằng hoàn hảo với vị bùi bùi của mè đen, khiến
+                        bạn
+                        như lạc vào chốn bình yên của một buổi trà đạo.</li>
+
+                    <li>Chiếc bánh nịnh mắt từ những lát trái cây tươi mọng nước cùng búp sữa chua dễ chịu, đem đến cảm
+                        giác
+                        thư
+                        thái tuyệt vời.</li>
+                </ul>
+                Tất cả các tầng hương vị hòa quyện hoàn hảo với nhau, cùng vẻ ngoài rực rỡ lấp lánh – “glow”, tạo
+                nên
+                những trải nghiệm vị giác khó quên khi thưởng thức, đưa bạn đi từ bất ngờ này đến bất ngờ khác.<br>
+
+                Cùng ghé The CakeShop và tô điểm cho những khoảnh khắc đặc biệt của bạn thêm phần thú vị với Soft
+                Glow –
+                Flan Gato Mè Đen Matcha nha!
+                </p>
+                <h4>Xem thêm các loại bánh khác</h4>
+                <li id="khac"><a href="#">Bánh kem sinh nhật</a></li>
+                <li id="khac"><a href="#">Bánh Mousse</a></li>
+                <li id="khac"><a href="#">Bánh Entrement</a></li>
+                <li id="khac"><a href="#">Bánh kem bắp</a></li>
+            </div>
+        </div>
+    </div>
+    <script src="scripts/banh.js"></script>
+</body>
+
+</html>
